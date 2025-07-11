@@ -1,0 +1,31 @@
+package Day12ProjectTHREAD;
+
+public class ChildThread extends Thread{
+    int n;
+    String msg;
+    
+    //para cons
+	public ChildThread(int n, String msg) {
+		super();
+		this.n = n;
+		this.msg = msg;
+	}
+	
+	public void run()
+	{
+		for(int i=1;i<n;i++)
+		{
+			try
+			{
+				Thread.sleep(6000);
+			}
+			catch(InterruptedException e)
+			{
+				System.err.println(e.getMessage());
+			}
+			System.out.println(i+ msg);
+		}
+	}
+    
+    
+}
