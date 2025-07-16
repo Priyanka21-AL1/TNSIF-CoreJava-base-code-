@@ -4,6 +4,6 @@
 /**
  * 
  */
-module Day15Project {
+module OnlineShopping {
 	requires java.sql;
 }
