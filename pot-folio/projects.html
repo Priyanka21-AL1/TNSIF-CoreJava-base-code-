@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projects & Internship</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #1f1f1f;
+      color: white;
+    }
+
+    .hero-overlay {
+      position: relative;
+      height: 100vh;
+      background: url('priya12.jpeg') no-repeat;
+      background-size: cover;
+      background-position: left center; /* ✅ Adjust this if your face is on left */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: left;
+    }
+
+    .content-box {
+      position: relative;
+      background-color: rgba(0, 0, 0, 0.6); /* semi-transparent for contrast */
+      padding: 2rem 3rem;
+      max-width: 800px;
+      border-radius: 10px;
+    }
+
+    .content-box h2 {
+      color: #ff007f;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .content-box ul {
+      padding-left: 1.5rem;
+    }
+
+    .content-box li {
+      margin-bottom: 0.8rem;
+      line-height: 1.5;
+    }
+
+    .content-box p {
+      margin: 0.5rem 0;
+      line-height: 1.6;
+    }
+
+    @media (max-width: 768px) {
+      .hero-overlay {
+        padding: 2rem;
+        background-position: top center;
+      }
+
+      .content-box {
+        padding: 1rem;
+        font-size: 0.9rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <section class="hero-overlay">
+    <div class="content-box">
+      <h2>My Projects</h2>
+      <ul>
+        <li><strong>Online Shopping System:</strong> Core Java & MySQL based console app (Eclipse IDE)</li>
+        <li><strong>Library Management System:</strong> JavaFX desktop app using SQL Admin backend</li>
+        <li><strong>Blood Donation Camp:</strong> Static frontend web app using HTML & CSS (VS Code)</li>
+      </ul>
+
+      <h2>Internship</h2>
+      <p><strong>Company:</strong> Softail Solution, Ravet-Akurdi</p>
+      <p><strong>Duration:</strong> 3 months (Offline Training + Internship)</p>
+      <p><strong>Experience:</strong> Learned Eclipse IDE, real-world teamwork, and basic project workflows.</p>
+    </div>
+  </section>
+
+</body>
+</html>
